@@ -1,0 +1,27 @@
+<p-toast></p-toast>
+<div fxLayout="row" fxLayoutGap="20px" fxLayoutAlign="center center" fxLayout.xs="column" class="centrar">
+    <div>
+        <h2 fxLayoutAlign="center ">Registrarse</h2>
+        <span class="p-float-label">
+            <input id="float-input" type="text" pInputText [(ngModel)]="usuario.usuario"> 
+            <label for="float-input">Usuario</label>
+        </span>
+
+        <br>
+
+        <span class="p-float-label">
+            <input id="float-input" type="text" pInputText [(ngModel)]="usuario.contrasena"> 
+            <label for="float-input">Contraseña</label>
+        </span>
+
+        <br>
+        <div fxLayoutAlign="center">
+            <button pButton type="button" label="Submit" class="p-button-success" (click)="crear()"></button>
+        </div>
+        <br>
+        <div fxLayoutAlign="center ">
+            <a [routerLink]="[ '/home'] ">Cancelar</a>
+        </div>
+
+    </div>
+</div>

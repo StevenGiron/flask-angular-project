@@ -1,0 +1,10 @@
+Flask
+Flask-MySQLdb
+Flask-Cors
+Flask-Testing
+flask-sqlalchemy
+bson
+flask_migrate
+models
+flask_restful
+requests

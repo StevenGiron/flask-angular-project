@@ -1,0 +1,8 @@
+<p-card header={{articulo.title}} subheader={{articulo.author}} [style]="{width: '360px'}" styleClass="p-card-shadow">
+    <ng-template pTemplate="header">
+        <img alt="Card" [src]="articulo.urlToImage">
+    </ng-template>
+    <ul>
+        <li> <strong> Description  </strong> {{articulo.description}} </li>
+    </ul>
+</p-card>
